@@ -1,0 +1,4337 @@
+{
+  "name": "Concentric Circle Training",
+  "intents": [
+    {
+      "intent": "types_of_services",
+      "examples": [
+        {
+          "text": "what types of services are available"
+        },
+        {
+          "text": "what are your services?"
+        },
+        {
+          "text": "do you offer services"
+        },
+        {
+          "text": "what services do you have?"
+        },
+        {
+          "text": "which services do you offer?"
+        }
+      ]
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Introduce your self"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "Doesnt_know_what_to_ask",
+      "examples": [
+        {
+          "text": "I don't know what to say"
+        },
+        {
+          "text": "what question to ask"
+        },
+        {
+          "text": "what should I ask"
+        }
+      ],
+      "description": "Visitor doesn't know what to ask"
+    },
+    {
+      "intent": "goodbyes",
+      "examples": [
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "cu"
+        },
+        {
+          "text": "later"
+        },
+        {
+          "text": "exit"
+        },
+        {
+          "text": "quit"
+        },
+        {
+          "text": "have a nice day"
+        },
+        {
+          "text": "farewell"
+        },
+        {
+          "text": "bye now"
+        },
+        {
+          "text": "cya"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "adieu"
+        },
+        {
+          "text": "stop"
+        },
+        {
+          "text": "I'm leaving"
+        },
+        {
+          "text": "we are done"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "so long"
+        },
+        {
+          "text": "ciao"
+        },
+        {
+          "text": "au revoir"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "GDPR compliant"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "oh, i see"
+        },
+        {
+          "text": "wunderbar"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "How cool is this?"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "get_more_details",
+      "examples": [
+        {
+          "text": "Where can I find more details"
+        },
+        {
+          "text": "I need more information"
+        },
+        {
+          "text": "how do I sign up"
+        },
+        {
+          "text": "where to registre"
+        },
+        {
+          "text": "get more info"
+        },
+        {
+          "text": "where can I find more info about kanban"
+        },
+        {
+          "text": "more information about kanban training"
+        }
+      ],
+      "description": "Visitor asks for more details"
+    },
+    {
+      "intent": "catalogue_of_kanban_courses",
+      "examples": [
+        {
+          "text": "Kanban"
+        },
+        {
+          "text": "which kanban courses"
+        },
+        {
+          "text": "do you have kanban foundation"
+        },
+        {
+          "text": "what kanban coursess"
+        },
+        {
+          "text": "types of kan-ban courses"
+        },
+        {
+          "text": "do you have kanban courses"
+        },
+        {
+          "text": "what are your kan ban courses"
+        },
+        {
+          "text": "what kanbn courses"
+        },
+        {
+          "text": "what kanban courses do you offer"
+        },
+        {
+          "text": "do you have kanban training"
+        },
+        {
+          "text": "what kanbn training do you offer"
+        }
+      ]
+    },
+    {
+      "intent": "Francophone",
+      "examples": [
+        {
+          "text": "parlez-vous français"
+        },
+        {
+          "text": "es-tu francophone"
+        },
+        {
+          "text": "francophonie"
+        },
+        {
+          "text": "speak French"
+        },
+        {
+          "text": "peux-tu entretenir en français"
+        },
+        {
+          "text": "tu parles français"
+        }
+      ],
+      "description": "Visitor inquires if French is spoken"
+    },
+    {
+      "intent": "Cost",
+      "examples": [
+        {
+          "text": "Tuition fee"
+        },
+        {
+          "text": "Price"
+        },
+        {
+          "text": "how much"
+        },
+        {
+          "text": "What is the cost"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "information_about_coaching",
+      "examples": [
+        {
+          "text": "what coaching do u do"
+        },
+        {
+          "text": "are u a coach"
+        },
+        {
+          "text": "do you coach"
+        },
+        {
+          "text": "is coaching available"
+        },
+        {
+          "text": "what kind of coach do you do"
+        }
+      ],
+      "description": "Visitor asks if coaching is available"
+    },
+    {
+      "intent": "taxable",
+      "examples": [
+        {
+          "text": "is sales tax included"
+        },
+        {
+          "text": "does that include vat"
+        },
+        {
+          "text": "what tax rate"
+        },
+        {
+          "text": "tax rate"
+        },
+        {
+          "text": "what is the vat rate"
+        },
+        {
+          "text": "is vat payable"
+        },
+        {
+          "text": "do you collect VAT"
+        },
+        {
+          "text": "is there VAT"
+        },
+        {
+          "text": "is tax due"
+        },
+        {
+          "text": "is it taxable"
+        },
+        {
+          "text": "taxable"
+        },
+        {
+          "text": "is vat included"
+        }
+      ],
+      "description": "Is tax payable?"
+    },
+    {
+      "intent": "catalogue_of_courses",
+      "examples": [
+        {
+          "text": "available courses"
+        },
+        {
+          "text": "what courses do you have"
+        },
+        {
+          "text": "what course do you have"
+        },
+        {
+          "text": "what types of trainign are there"
+        },
+        {
+          "text": "list of courses"
+        },
+        {
+          "text": "list of training"
+        },
+        {
+          "text": "what training in catalog"
+        },
+        {
+          "text": "what courses do you offer"
+        },
+        {
+          "text": "available seminars"
+        }
+      ],
+      "description": "What courses are available"
+    },
+    {
+      "intent": "course_by_type",
+      "examples": [
+        {
+          "text": "can you teach inhouse"
+        },
+        {
+          "text": "What format courses"
+        },
+        {
+          "text": "do you offer online courses"
+        },
+        {
+          "text": "do you have elearning"
+        },
+        {
+          "text": "can u teach inhouse"
+        },
+        {
+          "text": "are there inhours courses"
+        },
+        {
+          "text": "do you have in-house training"
+        },
+        {
+          "text": "which services are face to face"
+        },
+        {
+          "text": "which are face to face"
+        },
+        {
+          "text": "which courses are elearning"
+        },
+        {
+          "text": "which services are elearning"
+        },
+        {
+          "text": "which are online"
+        },
+        {
+          "text": "which ones are elearning"
+        },
+        {
+          "text": "which services are online"
+        },
+        {
+          "text": "which services are inhouse"
+        },
+        {
+          "text": "Which courses are available inhouse"
+        }
+      ],
+      "description": "Visitor wants to know which courses are eLearning and which courses are face to face"
+    },
+    {
+      "intent": "information_about_consulting",
+      "examples": [
+        {
+          "text": "do you consult"
+        },
+        {
+          "text": "do you do consulting"
+        },
+        {
+          "text": "what consulting"
+        },
+        {
+          "text": "what types of consulting"
+        },
+        {
+          "text": "what consulting do you do"
+        }
+      ],
+      "description": "Visitor asks about types of consulting available"
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "no thanks to you"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Hate you"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you help?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "types_of_training",
+      "examples": []
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "Germanophone",
+      "examples": [
+        {
+          "text": "auf deutsch"
+        },
+        {
+          "text": "sprechen-sie deutsch"
+        },
+        {
+          "text": "Sprichst-du deutsch"
+        },
+        {
+          "text": "speak german"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want an agent to help me"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "Duration",
+      "examples": [
+        {
+          "text": "how long is it"
+        },
+        {
+          "text": "how many days"
+        },
+        {
+          "text": "what is the duration"
+        },
+        {
+          "text": "how long does it last"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Targeted_user",
+      "examples": [
+        {
+          "text": "for whom is the course designed"
+        },
+        {
+          "text": "who is the targeted user"
+        },
+        {
+          "text": "who should attend"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Definition_ITIL",
+      "examples": [
+        {
+          "text": "i don't understand itil"
+        },
+        {
+          "text": "definition of itil"
+        },
+        {
+          "text": "define itil"
+        },
+        {
+          "text": "what is itil"
+        },
+        {
+          "text": "what do u mean by itil"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "thank_you",
+      "examples": [
+        {
+          "text": "tanks"
+        },
+        {
+          "text": "ok thanks"
+        },
+        {
+          "text": "Thanks a bunch"
+        },
+        {
+          "text": "much obliged"
+        },
+        {
+          "text": "I owe you one"
+        },
+        {
+          "text": "cheers"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you very much"
+        },
+        {
+          "text": "alright, thanks"
+        }
+      ]
+    },
+    {
+      "intent": "catalogue_of_ITIL_courses",
+      "examples": [
+        {
+          "text": "do you offer itil courses"
+        },
+        {
+          "text": "do you have itil training"
+        },
+        {
+          "text": "what itil courses do you offer"
+        },
+        {
+          "text": "itil foundation"
+        }
+      ]
+    },
+    {
+      "intent": "rude_remarks",
+      "examples": [
+        {
+          "text": "fuck u"
+        },
+        {
+          "text": "cunt"
+        },
+        {
+          "text": "asshole"
+        },
+        {
+          "text": "see you next Tuesday"
+        },
+        {
+          "text": "fuck off"
+        },
+        {
+          "text": "shit"
+        },
+        {
+          "text": "head"
+        },
+        {
+          "text": "shithead"
+        },
+        {
+          "text": "fuck of"
+        },
+        {
+          "text": "fuck you"
+        }
+      ],
+      "description": "Remarks by the visitor that are chit-chat and rude and should be handled with humor"
+    },
+    {
+      "intent": "Course_location",
+      "examples": [
+        {
+          "text": "course venue"
+        },
+        {
+          "text": "in what city are the courses available"
+        },
+        {
+          "text": "in what city"
+        },
+        {
+          "text": "where are your courses"
+        },
+        {
+          "text": "location of course"
+        },
+        {
+          "text": "where is the course"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "course_suggestion",
+      "examples": [
+        {
+          "text": "what kanban training do you recommend"
+        },
+        {
+          "text": "what is the appropriate course"
+        },
+        {
+          "text": "what course is best"
+        },
+        {
+          "text": "do you have a training suggestion"
+        },
+        {
+          "text": "what do you suggest?"
+        },
+        {
+          "text": "what course do you suggest?"
+        }
+      ],
+      "description": "Visitor wants a suggestion for a course"
+    },
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "sup"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "yo"
+        },
+        {
+          "text": "good day"
+        },
+        {
+          "text": "what's up?"
+        },
+        {
+          "text": "g'day"
+        },
+        {
+          "text": "Gruezi"
+        },
+        {
+          "text": "howdy"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "Greetings"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "course_registration",
+      "examples": [
+        {
+          "text": "registration procedure"
+        },
+        {
+          "text": "how to sign up"
+        },
+        {
+          "text": "how do i register"
+        },
+        {
+          "text": "how to registor"
+        },
+        {
+          "text": "how do i enroll"
+        },
+        {
+          "text": "course enrollment"
+        },
+        {
+          "text": "course enrolment"
+        },
+        {
+          "text": "I want to enroll"
+        },
+        {
+          "text": "how to enroll"
+        }
+      ],
+      "description": "Visitor inquires how to register for a course"
+    },
+    {
+      "intent": "Definition_kanban",
+      "examples": [
+        {
+          "text": "kanban defined"
+        },
+        {
+          "text": "what is the definition of kanban"
+        },
+        {
+          "text": "what is kanban"
+        },
+        {
+          "text": "define kanban"
+        },
+        {
+          "text": "kanban definetion"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "I'm done"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "prerequisites",
+      "examples": [
+        {
+          "text": "Pre-requisites?"
+        },
+        {
+          "text": "What are the prerequisites"
+        }
+      ],
+      "description": "What are the prerequisities for courses"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "kanban_experience",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "expert",
+          "synonyms": [
+            "extensive",
+            "a lot",
+            "expert",
+            "major"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "practitioner",
+          "synonyms": [
+            "experienced",
+            "practitioner",
+            "medium"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "little experience",
+          "synonyms": [
+            "Some experience",
+            "a little experience",
+            "A little",
+            "a littel",
+            "some"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "no experience",
+          "synonyms": [
+            "very little",
+            "I've heard of it",
+            "beginner",
+            "no experience",
+            "none",
+            "very littel"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "gender",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "male",
+          "synonyms": [
+            "man",
+            "boy",
+            "guy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "non binary",
+          "synonyms": [
+            "genderfluid",
+            "genderqueer",
+            "neither",
+            "both",
+            "intersex",
+            "agender"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "female",
+          "synonyms": [
+            "woman",
+            "girl",
+            "dame",
+            "gal",
+            "lady"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "specific_to_sm",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "general",
+            "kanban",
+            "the latter",
+            "the second"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "ITIL",
+            "service mgmt",
+            "service management",
+            "ITSM",
+            "the former",
+            "the first"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "course_name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Kanban Simulation Workshop",
+          "synonyms": [
+            "Kanban Simulation",
+            "simulation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kanban Foundation for Knowledge Work",
+          "synonyms": [
+            "Kanban Foundation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kanban for Service Management",
+          "synonyms": [
+            "Kanban for ITSM",
+            "Service Mgmt Kanban",
+            "ITSM kanban"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ITIL Foundation",
+          "synonyms": [
+            "ITIL"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kanban for Deciders",
+          "synonyms": [
+            "Kanban for Managers",
+            "kanban 4 deciders",
+            "4 deciders",
+            "deciders"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "course_domain",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ITIL",
+          "synonyms": [
+            "ITSM",
+            "Service Management",
+            "Service Mgmt"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "kanban",
+          "synonyms": [
+            "kan ban"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "kanban_domain",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "kanban",
+          "synonyms": [
+            "kanban training",
+            "kanban courses"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "response_types",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "positive",
+          "synonyms": [
+            "yes",
+            "yeah",
+            "yup",
+            "sure",
+            "yep",
+            "definately",
+            "absolutely",
+            "positively",
+            "yeppers",
+            "definitely",
+            "indeed"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "negative",
+          "synonyms": [
+            "no",
+            "nope",
+            "not",
+            "definitely not",
+            "not at all",
+            "not that I know of",
+            "none"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "uncertain",
+          "synonyms": [
+            "not sure",
+            "don't know",
+            "maybe",
+            "not positive",
+            "can't tell",
+            "unknown",
+            "unsure"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "security_concern",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "personal data",
+          "synonyms": [
+            "personal information",
+            "GDPR",
+            "confidential data"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "credit card",
+          "synonyms": [
+            "card",
+            "plastic",
+            "visa",
+            "mastercard",
+            "amex",
+            "american express",
+            "discover"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "joke_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "irish",
+          "synonyms": [
+            "irishman",
+            "irish woman",
+            "irish man",
+            "eire",
+            "paddy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mafia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ethnic",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "type_of_service",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "consulting",
+          "synonyms": [
+            "contracting"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "training.kanban",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "training",
+          "synonyms": [
+            "education",
+            "teaching"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "training.ITIL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "coaching",
+          "synonyms": [
+            "support"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "Roles",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Senior manager",
+          "synonyms": [
+            "CIO",
+            "CEO",
+            "director",
+            "general manager",
+            "managing director",
+            "CTO",
+            "CxO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Practitioner",
+          "synonyms": [
+            "employee",
+            "developer",
+            "service manager",
+            "incident manager",
+            "problem manager",
+            "change manager",
+            "programmer",
+            "engineer",
+            "service level manager",
+            "service delivery manager",
+            "sales",
+            "salesman",
+            "saleswoman",
+            "marketing",
+            "marketer",
+            "process manager",
+            "accountant",
+            "finance",
+            "product owner",
+            "team member"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Team leader",
+          "synonyms": [
+            "supervisor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Customer",
+          "synonyms": [
+            "client",
+            "user"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "ITIL_domain",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ITIL",
+          "synonyms": [
+            "ITSM",
+            "ITIL courses"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "course_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Face to face",
+          "synonyms": [
+            "onsite",
+            "inhouse",
+            "private",
+            "on-site",
+            "in house",
+            "in-house",
+            "face-to-face",
+            "face2face",
+            "instructor in classroom"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Online",
+          "synonyms": [
+            "Online-training",
+            "elearning",
+            "electronic",
+            "on the internet",
+            "e-learning",
+            "on-line"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "Production environment",
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_25_1523618719810",
+      "event_name": "filled",
+      "dialog_node": "handler_13_1523869572964",
+      "previous_sibling": "handler_16_1523870064416"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Response if not found"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_25_1523618719810",
+      "event_name": "nomatch",
+      "dialog_node": "handler_16_1523870064416",
+      "previous_sibling": "handler_26_1523618719810"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_25_1523618719810",
+      "context": {
+        "kanban_experience": "@kanban_experience"
+      },
+      "metadata": {},
+      "conditions": "@kanban_experience",
+      "event_name": "input",
+      "dialog_node": "handler_26_1523618719810",
+      "previous_sibling": "handler_27_1523618719810"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "How much experience do you have with kanban?"
+      },
+      "parent": "slot_25_1523618719810",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_27_1523618719810"
+    },
+    {
+      "type": "standard",
+      "title": "Response to \"Is there anything else\"",
+      "output": {},
+      "parent": "node_2_1522855792778",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1522856154578"
+      },
+      "conditions": "@response_types:negative",
+      "dialog_node": "node_1_1523884195390"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "We have kanban and ITIL courses in our catalogue. In which area are you interested?"
+      },
+      "parent": "slot_8_1523612581954",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_10_1523612581954",
+      "previous_sibling": "handler_9_1523612581954"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1523612581954",
+      "context": {
+        "course_domain": "@course_domain"
+      },
+      "metadata": {},
+      "conditions": "@course_domain",
+      "event_name": "input",
+      "dialog_node": "handler_9_1523612581954"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1523951783416",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1523951783416",
+      "previous_sibling": "handler_3_1523951783416"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1523951783416",
+      "context": {},
+      "conditions": "$course_name",
+      "event_name": "input",
+      "dialog_node": "handler_3_1523951783416"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The <em>Kanban Simulation Workshop</em> targets anyone interested in learning what kanban is and why it works so well."
+          ]
+        }
+      },
+      "parent": "node_14_1525019483156",
+      "metadata": {},
+      "conditions": "$course_name:(Kanban Simulation Workshop)",
+      "dialog_node": "node_21_1525019487106",
+      "previous_sibling": "node_20_1525019487106"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I didn't recognize the course in which you are interested."
+          ]
+        }
+      },
+      "parent": "node_14_1525019483156",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_23_1525019487106",
+      "previous_sibling": "node_22_1525019487106"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The seminar targets senior managers, typically with budget and resource allocation authority."
+          ]
+        }
+      },
+      "parent": "node_14_1525019483156",
+      "metadata": {},
+      "conditions": "$course_name:(Kanban for Deciders)",
+      "dialog_node": "node_19_1525019487106",
+      "previous_sibling": "node_18_1525019487106"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our <em>Kanban Foundation for Knowledge Work</em> course targets anyone performing any type of knowledge work role. This would include, for example, anyone in operations, IT, finance, product management, HR, marketing, sales, etc."
+          ]
+        }
+      },
+      "parent": "node_14_1525019483156",
+      "metadata": {},
+      "conditions": "$course_name:(Kanban Foundation for Knowledge Work)",
+      "dialog_node": "node_22_1525019487106",
+      "previous_sibling": "node_21_1525019487106"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_14_1525019483156",
+      "metadata": {},
+      "variable": "$course_name",
+      "dialog_node": "slot_15_1525019487106",
+      "previous_sibling": "node_23_1525019487106"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "<em>Kanban for Service Management</em> is designed for people who would like to use kanban to for the management of services. Typically, it targets process managers, team leaders and senior managers."
+          ]
+        }
+      },
+      "parent": "node_14_1525019483156",
+      "metadata": {},
+      "conditions": "$course_name:(Kanban for Service Management)",
+      "dialog_node": "node_20_1525019487106",
+      "previous_sibling": "node_19_1525019487106"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "This course is for anyone performing any service management role and anyone else with an interest in managing services."
+          ]
+        }
+      },
+      "parent": "node_14_1525019483156",
+      "metadata": {},
+      "conditions": "$course_name:(ITIL Foundation)",
+      "dialog_node": "node_18_1525019487106"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "We offer training, coaching and consulting services. In which type of service are you interested?"
+      },
+      "parent": "slot_3_1523610598780",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_5_1523610598780",
+      "previous_sibling": "handler_4_1523610598780"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1523610598780",
+      "context": {
+        "type_of_service": "@type_of_service"
+      },
+      "conditions": "@type_of_service",
+      "event_name": "input",
+      "dialog_node": "handler_4_1523610598780"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "node_1_1524636490460",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_2_1524636523540",
+      "previous_sibling": "slot_4_1524636574406"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "node_1_1524636490460",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_3_1524636546274",
+      "previous_sibling": "node_2_1524636523540"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1524636490460",
+      "dialog_node": "slot_4_1524636574406"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Here is our suggestion:"
+          ]
+        }
+      },
+      "parent": "slot_29_1523619066442",
+      "metadata": {},
+      "conditions": "$specific_to_sm",
+      "event_name": "filled",
+      "dialog_node": "handler_10_1526035458002",
+      "previous_sibling": "handler_30_1523619066442"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Here is our suggestion:"
+          ]
+        }
+      },
+      "parent": "slot_29_1523619066442",
+      "context": {
+        "specific_to_sm": "no"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "anything_else",
+      "event_name": "nomatch",
+      "dialog_node": "handler_11_1526035458002",
+      "previous_sibling": "handler_10_1526035458002"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_29_1523619066442",
+      "context": {
+        "specific_to_sm": "@specific_to_sm"
+      },
+      "metadata": {},
+      "conditions": "@specific_to_sm",
+      "event_name": "input",
+      "dialog_node": "handler_30_1523619066442",
+      "previous_sibling": "handler_31_1523619066442"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Are you interested in kanban in general or are you only interested in service management?"
+      },
+      "parent": "slot_29_1523619066442",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_31_1523619066442"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "To organize a course, send an email describing your interest to <a href=\"mailto:training-admin\\@3cs.ch?subject=$course_name\">training-admin\\@3cs.ch</a>."
+          ]
+        }
+      },
+      "parent": "node_1_1524058421658",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_3_1524058648668",
+      "previous_sibling": "node_2_1524058452676"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "To register for <em>Kanban Foundation for Knowledge Work</em>, go to the <a href=\"https://www.3cs.ch/checkout/?add-to-cart=2941\" target=_blank rel=”noopener”>registration page</a>."
+          ]
+        }
+      },
+      "parent": "node_1_1524058421658",
+      "metadata": {},
+      "conditions": "$course_name:(Kanban Foundation for Knowledge Work)",
+      "dialog_node": "node_2_1524058452676",
+      "previous_sibling": "slot_4_1524059023684"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1524058421658",
+      "metadata": {},
+      "variable": "$course_name",
+      "dialog_node": "slot_4_1524059023684"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1525017304714",
+      "metadata": {},
+      "variable": "$course_name",
+      "dialog_node": "slot_5_1525017362928",
+      "previous_sibling": "node_12_1525018021996"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The <em>Kanban Simulation Workshop</em> has no prerequisites. It assumes little or no knowledge of kanban."
+          ]
+        }
+      },
+      "parent": "node_3_1525017304714",
+      "metadata": {},
+      "conditions": "$course_name:(Kanban Simulation Workshop)",
+      "dialog_node": "node_10_1525017767594",
+      "previous_sibling": "node_9_1525017654758"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The seminar target senior managers, typically with budget and resource allocation authority. It assumes no previous knowledge of kanban."
+          ]
+        }
+      },
+      "parent": "node_3_1525017304714",
+      "metadata": {},
+      "conditions": "$course_name:(Kanban for Deciders)",
+      "dialog_node": "node_8_1525017576852",
+      "previous_sibling": "node_4_1525017331530"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "<em>Kanban for Service Management</em> assumes at least a basic knowledge of kanban, as provided by a course such as our <em>Kanban Foundation</em> or good practical experience. It also assumes a foundation-level knowledge of service management."
+          ]
+        }
+      },
+      "parent": "node_3_1525017304714",
+      "metadata": {},
+      "conditions": "$course_name:(Kanban for Service Management)",
+      "dialog_node": "node_9_1525017654758",
+      "previous_sibling": "node_8_1525017576852"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I didn't recognize the course in which you are interested."
+          ]
+        }
+      },
+      "parent": "node_3_1525017304714",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_12_1525018021996",
+      "previous_sibling": "node_11_1525017836672"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our <em>Kanban Foundation for Knowledge Work</em> course has no prerequisites. It targets anyone performing any type of knowledge work role."
+          ]
+        }
+      },
+      "parent": "node_3_1525017304714",
+      "metadata": {},
+      "conditions": "$course_name:(Kanban Foundation for Knowledge Work)",
+      "dialog_node": "node_11_1525017836672",
+      "previous_sibling": "node_10_1525017767594"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "There are no specific prerequisities for the <em>ITIL Foundation</em>. Some experience in any service management role is helpfuul."
+          ]
+        }
+      },
+      "parent": "node_3_1525017304714",
+      "metadata": {},
+      "conditions": "$course_name:(ITIL Foundation)",
+      "dialog_node": "node_4_1525017331530"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "We offer the ITIL Foundation course, in English or in French"
+      },
+      "parent": "slot_15_1523617673334",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_17_1523617673334",
+      "previous_sibling": "handler_16_1523617673334"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_15_1523617673334",
+      "context": {
+        "course_name": "@course_name"
+      },
+      "metadata": {},
+      "conditions": "@course_name",
+      "event_name": "input",
+      "dialog_node": "handler_16_1523617673334"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_18_1523874310360",
+      "metadata": {},
+      "variable": "$course_type",
+      "dialog_node": "slot_3_1523875461574",
+      "previous_sibling": "node_23_1523958762916"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The <em>Kanban Simulation</em> and <em>Kanban for Deciders</em> seminars and our coaching and consulting are available face-to-face, in-house."
+          ]
+        }
+      },
+      "parent": "node_18_1523874310360",
+      "metadata": {},
+      "conditions": "@course_type:(Face to face)",
+      "dialog_node": "node_23_1523958762916",
+      "previous_sibling": "node_22_1523958697054"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "<em>Kanban Foundation for Knowledge Work</em> is an on-line, eLearning course. <em>Kanban for Service Management</em> will be available soon as an eLearning course."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_18_1523874310360",
+      "metadata": {},
+      "conditions": "@course_type:Online",
+      "dialog_node": "node_22_1523958697054"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1524481374424",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1524481374424",
+      "previous_sibling": "handler_6_1524481374424"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_5_1524481374424",
+      "event_name": "input",
+      "dialog_node": "handler_6_1524481374424"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1524636574406",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1524636574406",
+      "previous_sibling": "handler_5_1524636574406"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1524636574406",
+      "event_name": "input",
+      "dialog_node": "handler_5_1524636574406"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "<em>Kanban for Deciders</em> is  three hour seminar providing senior managers with a hands-on understanding of what to expect from kanban and what kanban expects from management. You can find more details about this course by clicking <a href=\"https://www.3cs.ch/training-and-seminars/\" target=\"_blank\" rel=”noopener”>here</a>."
+          ]
+        }
+      },
+      "parent": "node_5_1522860612074",
+      "metadata": {},
+      "conditions": "$course_name:(Kanban for Deciders)",
+      "dialog_node": "node_2_1524065431668",
+      "previous_sibling": "node_1_1523460068672"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "<em>Kanban for Service Management</em> builds on the kanban foundation to understand how to apply kanban to deliver and manage services. You can find more details about this course by clicking <a href=\"https://www.3cs.ch/training-and-seminars/\" target=\"_blank\" rel=”noopener”>here</a>."
+          ]
+        }
+      },
+      "parent": "node_5_1522860612074",
+      "metadata": {},
+      "conditions": "$course_name:(Kanban for Service Management)",
+      "dialog_node": "node_4_1524065773594",
+      "previous_sibling": "node_3_1524065678520"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our <em>Kanban Foundation</em> is  an on-line eLearning course providing all the methods and principles you need to start your kanban initiative. You can find more details about this course by clicking <a href=\"https://www.3cs.ch/training-and-seminars/\" target=\"_blank\" rel=”noopener”>here</a>."
+          ]
+        }
+      },
+      "parent": "node_5_1522860612074",
+      "metadata": {},
+      "conditions": "$course_name:(Kanban Foundation for Knowledge Work)",
+      "dialog_node": "node_3_1524065678520",
+      "previous_sibling": "node_2_1524065431668"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our <em>Kanban Simulation</em> is a two hour workshop introducing you to the basic principles of kanban in a gamified context. You can find more details about this course by clicking <a href=\"https://www.3cs.ch/training-and-seminars/\" target=\"_blank\" rel=”noopener”>here</a>."
+          ]
+        }
+      },
+      "parent": "node_5_1522860612074",
+      "metadata": {},
+      "conditions": "$course_name:(Kanban Simulation Workshop)",
+      "dialog_node": "node_1_1523460068672",
+      "previous_sibling": "slot_2_1523460068692"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1522860612074",
+      "metadata": {},
+      "variable": "$course_name",
+      "dialog_node": "slot_2_1523460068692"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You can find more details about this course by clicking <a href=\"https://www.3cs.ch/training-and-seminars/\" rel=”noopener” target=\"_blank\">here</a>."
+          ]
+        }
+      },
+      "parent": "node_14_1523617673314",
+      "metadata": {},
+      "conditions": "$course_name",
+      "dialog_node": "node_18_1523617673336",
+      "previous_sibling": "slot_15_1523617673334"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_14_1523617673314",
+      "metadata": {},
+      "variable": "$course_name",
+      "dialog_node": "slot_15_1523617673334"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "<em>Kanban Foundation for Knowledge Work</em> is an on-line, eLearning course. <em>Kanban for Service Management</em> will be available soon as an eLearning course."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1523875461574",
+      "metadata": {},
+      "event_name": "filled",
+      "dialog_node": "handler_18_1523958317816",
+      "previous_sibling": "handler_4_1523875461574"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1523875461574",
+      "context": {
+        "course_type": "@course_type:elearning"
+      },
+      "metadata": {},
+      "conditions": "@course_type:elearning",
+      "event_name": "input",
+      "dialog_node": "handler_4_1523875461574",
+      "previous_sibling": "handler_5_1523875461574"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The <em>Kanban Simulation</em> and <em>Kanban for Deciders</em> seminars and our coaching and consulting are available face-to-face, in-house."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1523875461574",
+      "event_name": "nomatch",
+      "dialog_node": "handler_21_1523958335494",
+      "previous_sibling": "handler_18_1523958317816"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "The <em>Kanban Simulation</em> and <em>Kanban for Deciders</em> seminars and our coaching and consulting are available face-to-face, in-house."
+      },
+      "parent": "slot_3_1523875461574",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_5_1523875461574"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Kanban Foundation for Knowledge Work: eLearning with no fixed duration<br />ITIL Foundation: 3 days<br />Kanban for Deciders: 3 hours<br />Kanban for Service Management: two days<br />Kanban Simulation Workshop: 2-3 hours"
+          ]
+        }
+      },
+      "parent": "node_1_1525015963426",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_2_1525017124754",
+      "previous_sibling": "node_1_1525017046796"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our <em>Kanban for Service Management</em> course lasts two days when delivered in-house. The on-line version (in preparation) has no fixed length."
+          ]
+        }
+      },
+      "parent": "node_1_1525015963426",
+      "metadata": {},
+      "conditions": "$course_name:(Kanban for Service Management)",
+      "dialog_node": "node_5_1525016398394",
+      "previous_sibling": "node_4_1525016237906"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The <em>Kanban for Deciders</em> seminar last one-half day, about 3 hours."
+          ]
+        }
+      },
+      "parent": "node_1_1525015963426",
+      "metadata": {},
+      "conditions": "$course_name:(Kanban for Deciders)",
+      "dialog_node": "node_3_1525016087232",
+      "previous_sibling": "node_2_1525016005964"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The on-line course <em>Kanban Foundation for Knowledge Work</em> has no fixed length. It consists of short video lessons, exercises, quizzes and an optional examination. The amount of time needed to complete the course depends on your availability."
+          ]
+        }
+      },
+      "parent": "node_1_1525015963426",
+      "metadata": {},
+      "conditions": "$course_name:(Kanban Foundation for Knowledge Work)",
+      "dialog_node": "node_4_1525016237906",
+      "previous_sibling": "node_3_1525016087232"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The <em>Kanban Simulation Workshop</em> lasts two to three hours."
+          ]
+        }
+      },
+      "parent": "node_1_1525015963426",
+      "metadata": {},
+      "conditions": "$course_name:(Kanban Simulation Workshop)",
+      "dialog_node": "node_1_1525017046796",
+      "previous_sibling": "node_5_1525016398394"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The <em>ITIL Foundation</em> course is 3 consecutive days, including the certification examination."
+          ]
+        }
+      },
+      "parent": "node_1_1525015963426",
+      "metadata": {},
+      "conditions": "$course_name:(ITIL Foundation)",
+      "dialog_node": "node_2_1525016005964"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hi. How may I help you?"
+          ]
+        }
+      },
+      "parent": "node_1_1522855625972",
+      "metadata": {},
+      "dialog_node": "node_3_1525526841912",
+      "previous_sibling": "node_2_1525526812934"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hi, $fname. How may I help you?"
+          ]
+        }
+      },
+      "parent": "node_1_1522855625972",
+      "metadata": {},
+      "conditions": "$fname",
+      "dialog_node": "node_2_1525526812934",
+      "previous_sibling": "node_1_1525526732322"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hi, $nickname. How may I help you?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1522855625972",
+      "metadata": {},
+      "conditions": "$nickname",
+      "dialog_node": "node_1_1525526732322"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "So the Irishman was on a trans-Atlantic flight, mid-way across, when the pilot made this announcement, \"Ladies and gentlemen. We have had a little trouble with engine #4 and I have had to shut it down. We are perfectly safe, but will reach our destination 15 minutes behind schedule.\"<br />The Irishman was a little perturbed, but went back to his meal. A little while later, the pilot makes another announcement. \"Ladies and gentlemen. I am sorry to say to we have now lost engine #2. The airplane is continuing to fly normally, but we will reach our destination one-half hour late.\"<br />The Irishman started to get nervous and beads of persperation appeared on his broad forehead.<br />Well, it wasn't long before the pilot made a third announcment. \"Ladies and gentlemen. Now engine #3 has conked out. As you can see, we are continuing to fly on the single engine that is still operational. Unfortunately, we will reach our destination one hour late.\"<br />On hearing this, the Irishman couldn't stand the suspense any longer and he blurted out, \"Begorrah! We better not lose that 4th engine or, for sure, we'll be up here <em>all night</em>!\""
+          ]
+        }
+      },
+      "parent": "node_10_1524481582526",
+      "metadata": {},
+      "conditions": "$joke_type:irish",
+      "dialog_node": "node_15_1524481709290",
+      "previous_sibling": "node_11_1524481613422"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "A mafioso needed to get a new accountant and decided to hire a deaf man, thinking that his secrets would be more secure that way. But after a while, the mafioso realized that the accountant was stealing money so he decided to confront him. He brought his consigliere with him, who knew sign language, to communicate with the deaf accountant.<br />&ldquo;Ask him where my money is&rdquo; told the mafioso to the consigliere. They exchanged signs with their hands and the boss asked, &ldquo;What did he say?&rdquo; The consigliere responded, &ldquo;He said &lsquo;Boss - I don't know what you're talking about.&rsquo;&rdquo; So the mafioso got flustered and said, &ldquo;Tell him I mean business! He has to tell me where that money is!&rdquo; And once again the consigliere signs the message and gets the accountant's response. &ldquo;What did he say? What did he say?&rdquo; asked the impatient chief. &ldquo;He said,&rdquo; replied the consigliere &ldquo;that he really has no idea why you're asking this.&rdquo;<br />Angry and frustrated, the mafioso pulled out a revolver and pointed it straight at the accountant's head. &ldquo;Now. I give him one last chance. WHERE IS MY MONEY?&rdquo; The consigliere once again passed on the message. The accountant was visibly shaken and beads of perspiration appeared on his forehead. After a minute's reflection he signed to the consigliere that the money was hidden in a bag that he buried behind his cousin's house. Crazy with impatience, the mafioso demanded to know the answer. And cool as a cucumber, the consigliere turned to the boss, replying, &ldquo;He said, &lsquo;you don't have the balls to shoot!&rsquo;&rdquo;"
+          ]
+        }
+      },
+      "parent": "node_10_1524481582526",
+      "metadata": {},
+      "conditions": "$joke_type:mafia",
+      "dialog_node": "node_16_1524481726508",
+      "previous_sibling": "node_15_1524481709290"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I really don't find that very funny."
+          ]
+        }
+      },
+      "parent": "node_10_1524481582526",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1524590524910",
+      "previous_sibling": "node_16_1524481726508"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1524481582526",
+      "metadata": {},
+      "variable": "$joke_type",
+      "dialog_node": "slot_12_1524481613444",
+      "previous_sibling": "node_1_1524590524910"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "So a man with a broad smile on his face entered one of those trains with compartments and found one where there was only one other passenger. Sitting down, he said to the man, &ldquo;I just heard a great Fredonia joke. Let me tell it to you.&rdquo;<br />The other passenger replied, &ldquo;You can't tell me a Fredonia joke.&rdquo;<br />&ldquo;Why not? It's really funny. You'll like it. You see...&rdquo;<br />&ldquo;Stop right there! No Fredonia jokes!&rdquo;<br />&ldquo;I don't understand. Don't you like jokes?&rdquo;<br />&ldquo;You can't tell me a Fredonia joke because <em>I'm</em> Fredonian!&rdquo;<br />The man was taken aback at first, but then said. &ldquo;That's alright. That's OK...I'll tell it to you twice!&rdquo;"
+          ]
+        }
+      },
+      "parent": "node_10_1524481582526",
+      "metadata": {},
+      "conditions": "$joke_type:ethnic",
+      "dialog_node": "node_11_1524481613422"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "In which service are you interested?"
+          ]
+        }
+      },
+      "parent": "node_1_1524290592664",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1524293718820",
+      "previous_sibling": "node_3_1524292065534"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We offer consulting in five areas: &bull;&ensp;Developing a lean-kanban strategy for managing work<br />&bull;&ensp;Selecting and integrating tools<br />&bull;&ensp;Developing a continual improvement strategy<br />&bull;&ensp;Optimizing processes<br />&bull;&ensp;Performing maturity assessments"
+          ]
+        }
+      },
+      "parent": "node_1_1524290592664",
+      "metadata": {},
+      "conditions": "@type_of_service:consulting",
+      "dialog_node": "node_6_1524290903152",
+      "previous_sibling": "node_2_1524290644838"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1524290592664",
+      "variable": "$type_of_service",
+      "dialog_node": "slot_3_1524290644852",
+      "previous_sibling": "node_1_1524293718820"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We have kanban training and service management training."
+          ]
+        }
+      },
+      "parent": "node_1_1524290592664",
+      "metadata": {},
+      "conditions": "@type_of_service:training",
+      "dialog_node": "node_3_1524292065534",
+      "previous_sibling": "node_6_1524290903152"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our coaching is a lightweight, pragmatic way of helping your teams to develop their capabilities"
+          ]
+        }
+      },
+      "parent": "node_1_1524290592664",
+      "metadata": {},
+      "conditions": "@type_of_service:coaching",
+      "dialog_node": "node_2_1524290644838"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1523610477898",
+      "metadata": {},
+      "variable": "$type_of_service",
+      "dialog_node": "slot_3_1523610598780",
+      "previous_sibling": "node_2_1523610598762"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "In our training catalogue we have kanban courses and ITIL coursesWe offer training, coaching and consulting services. In which type of service are you interested?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1523610477898",
+      "metadata": {},
+      "conditions": "#types_of_training",
+      "dialog_node": "node_2_1523610598762"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Thank you for your concern about our security. With the exception of your personal data, there is nothing confidential at this site. We protect the integrity of the information displayed using encrypted communications and start of the art protection of the web server, provided by our hosting service."
+          ]
+        }
+      },
+      "parent": "node_17_1524482470180",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_20_1524482921052",
+      "previous_sibling": "node_19_1524482678256"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Thank you for your remark about our handling of your personal data. We operate in compliance with the EU GDPR. For more information, please view our <a href=\"https://www.3cs.ch/personal-data-faq/\" target=\"_blank\" rel=\"noopener\">Personal Data FAQ</a."
+          ]
+        }
+      },
+      "parent": "node_17_1524482470180",
+      "metadata": {},
+      "conditions": "@security_concern:(personal data)",
+      "dialog_node": "node_19_1524482678256",
+      "previous_sibling": "node_18_1524482574306"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Thank you for your remark about our handling of your credit card information. We do not store your credit card information anywhere. It is transmitted directly to the payment gateway you choose when making a payment. All communications are encrypted using https."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_17_1524482470180",
+      "metadata": {},
+      "conditions": "@security_concern:(credit card)",
+      "dialog_node": "node_18_1524482574306"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "In which course are you interested?<br />Kanban Foundation for Knowledge Work<br />Kanban Simulation Workshop<br />Kanban for Deciders<br />Kanban for Service Management<br />ITIL Foundation"
+      },
+      "parent": "slot_15_1525019487106",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_17_1525019487106",
+      "previous_sibling": "handler_16_1525019487106"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_15_1525019487106",
+      "context": {
+        "course_name": "@course_name"
+      },
+      "metadata": {},
+      "conditions": "@course_name",
+      "event_name": "input",
+      "dialog_node": "handler_16_1525019487106"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "In which course are you interested? (Kanban Foundation, Kanban Simulation, Kanban for Deciders, Kanban for Service Management, ITIL Foundation))"
+      },
+      "parent": "slot_4_1524059023684",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_6_1524059023684",
+      "previous_sibling": "handler_5_1524059023684"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1524059023684",
+      "context": {
+        "course_name": "@course_name"
+      },
+      "conditions": "@course_name",
+      "event_name": "input",
+      "dialog_node": "handler_5_1524059023684"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1524481272992",
+      "dialog_node": "slot_5_1524481374424",
+      "previous_sibling": "node_4_1524481374414"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I am Sophos, an automated agent with natural language processing. How am I doing?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1524481272992",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_4_1524481374414",
+      "previous_sibling": "node_8_1524481420562"
+    },
+    {
+      "type": "standard",
+      "title": "How am I doing?",
+      "output": {},
+      "parent": "node_3_1524481272992",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_8_1524481420562",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We offer the ITIL Foundation course, in English or in French. You can find more details by clicking <a href=\"https://www.3cs.ch/training-and-seminars/\" target=\"_blank\" rel=”noopener”>here</a>"
+          ]
+        }
+      },
+      "parent": "node_7_1523612581934",
+      "metadata": {},
+      "conditions": "@ITIL_domain",
+      "dialog_node": "node_11_1523612581954",
+      "previous_sibling": "slot_8_1523612581954"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We have 4 kanban courses: <ul><li style=\"list-style-type: disc\">Kanban Foundation for Knowledge Work</li><li style=\"list-style-type: disc\">Kanban for Deciders</li><li style=\"list-style-type: disc\">Kanban Simulation</li><li style=\"list-style-type: disc\">Kanban for Service Managers</li></ul>"
+          ]
+        }
+      },
+      "parent": "node_7_1523612581934",
+      "metadata": {},
+      "conditions": "@kanban_domain",
+      "dialog_node": "node_12_1523612581954",
+      "previous_sibling": "node_11_1523612581954"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1523612581934",
+      "metadata": {},
+      "variable": "$course_domain",
+      "dialog_node": "slot_8_1523612581954"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_19_1523618505886",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$specific_to_sm",
+      "conditions": "true",
+      "dialog_node": "slot_29_1523619066442",
+      "previous_sibling": "slot_25_1523618719810"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Let me ask you a few suggestions to find a good course for you. Is that OK with you?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_19_1523618505886",
+      "disabled": true,
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_20_1523618568516",
+      "previous_sibling": "handler_1_1526031014960"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our <a href=\"https://blog.t.3cs.ch/training-and-seminars/\" target=_blank rel=\"noopener\"><em>Kanban Foundation for Knowledge Work</em></a> teaches all the concepts required to improve the use of kanban on a daily basis. After you get some more experience using kanban try our <a href=\"https://blog.t.3cs.ch/training-and-seminars/\" target=_blank><em>Kanban for Service Management</em></a> course."
+          ]
+        }
+      },
+      "parent": "node_19_1523618505886",
+      "metadata": {},
+      "conditions": "$Role:(Team leader) && $specific_to_sm:yes && $kanban_experience:(little experience)",
+      "dialog_node": "node_33_1523632435062",
+      "previous_sibling": "node_32_1523632413580"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "If you already have good experience with kanban, perhaps you would be interesting in our coaching service to help make additional improvements in a lightweight but effective way."
+          ]
+        }
+      },
+      "parent": "node_19_1523618505886",
+      "metadata": {},
+      "conditions": "$kanban_experience:expert || ($kanban_experience:practitioner && $specific_to_sm:no)",
+      "dialog_node": "node_1_1523865639478",
+      "previous_sibling": "slot_29_1523619066442"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "To get a good idea of what you can expect when your provider uses kanban, we suggest organizing the <a href=\"https://blog.t.3cs.ch/training-and-seminars/\" target=_blank rel=\"noopener\"><em>Kanban Simulation</em></a> seminar."
+          ]
+        }
+      },
+      "parent": "node_19_1523618505886",
+      "metadata": {},
+      "conditions": "$Role:Customer && ($kanban_experience:(no experience) || $kanban_experience:(little experience))",
+      "dialog_node": "node_32_1523632413580",
+      "previous_sibling": "node_21_1523618568518"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our <a href=\"https://blog.t.3cs.ch/training-and-seminars/\" target=_blank rel=\"noopener\"><em>Kanban Foundation for Knowledge Work</em></a> teaches all the concepts required to use kanban and to improve on a daily basis."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_19_1523618505886",
+      "metadata": {},
+      "conditions": "$Role:Practitioner && ($kanban_experience:(no experience) || $kanban_experience:(little experience))",
+      "dialog_node": "node_28_1523619042396",
+      "previous_sibling": "node_10_1523868427546"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You can start with the <em>Kanban Simulation</em> seminar and follow that up with the <a href=\"https://blog.t.3cs.ch/training-and-seminars/\" target=_blank><em>Kanban Foundation for Knowledge Work</em></a>. After you get some experience using kanban try our <a href=\"https://blog.t.3cs.ch/training-and-seminars/\" target=_blank rel=\"noopener\"><em>Kanban for Service Management</em></a> course."
+          ]
+        }
+      },
+      "parent": "node_19_1523618505886",
+      "metadata": {},
+      "conditions": "$Role:(Team leader) && $specific_to_sm:no && ($kanban_experience:(little experience) || $kanban_experience:(no experience))",
+      "dialog_node": "node_12_1523868944060",
+      "previous_sibling": "node_11_1523868677690"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_19_1523618505886",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$Role",
+      "dialog_node": "slot_22_1523618568544",
+      "previous_sibling": "handler_20_1523618568516"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You can start with the <a href=\"https://blog.t.3cs.ch/training-and-seminars/\" target=_blank rel=\"noopener\"><em>Kanban Simulation</em></a> seminar and follow that up with the <em>Kanban Foundation for Knowledge Work</em>. After you get some experience using kanban try our <a href=\"https://blog.t.3cs.ch/training-and-seminars/\" target=_blank><em>Kanban for Service Management</em></a> course."
+          ]
+        }
+      },
+      "parent": "node_19_1523618505886",
+      "metadata": {},
+      "conditions": "$Role:(Team leader) && $specific_to_sm:yes && $kanban_experience:(no experience)",
+      "dialog_node": "node_11_1523868677690",
+      "previous_sibling": "node_33_1523632435062"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our course <a href=\"https://blog.t.3cs.ch/training-and-seminars/\" target=_blank rel=\"noopener\"><em>Kanban for Service Managers</em></a> explains how to use kanban to manage services. It assumes a foundation knowledge of kanban."
+          ]
+        }
+      },
+      "parent": "node_19_1523618505886",
+      "metadata": {},
+      "conditions": "$kanban_experience:practitioner && $specific_to_sm:yes",
+      "dialog_node": "node_8_1523865971358",
+      "previous_sibling": "node_12_1523868944060"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We have a seminar, <a href=\"https://blog.t.3cs.ch/training-and-seminars/kanban-for-deciders\" target=_blank rel=\"noopener\"><em>Kanban for Deciders</em></a>, specially designed for the management team to help them understand what to expect from kanban and what kanban expects from managers. In parallel, your practitioners should take our <a href=\"https://blog.t.3cs.ch/training-and-seminars/#kanban-foundation-for-knowledge-work\" target=_blank><em>Kanban Foundation for Knowledge Work</em></a> course"
+          ]
+        }
+      },
+      "parent": "node_19_1523618505886",
+      "metadata": {},
+      "conditions": "$Role:(Senior manager) && ($kanban_experience:(no experience) || $kanban_experience:(little experience))",
+      "dialog_node": "node_21_1523618568518",
+      "previous_sibling": "node_1_1523865639478"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We have an advanced course, <a href=\"https://blog.t.3cs.ch/training-and-seminars/\" target=_blank rel=\"noopener\"><em>Kanban for Service Managers</em></a>, but suggest that you start with our <a href=\"https://blog.t.3cs.ch/training-and-seminars/\" target=_blank><em>Kanban Foundation for Knowledge Work</em></a>. It teaches all the concepts required to improve the use of kanban on a daily basis."
+          ]
+        }
+      },
+      "parent": "node_19_1523618505886",
+      "metadata": {},
+      "conditions": "$Role:Practitioner && $specific_to_sm:yes && ($kanban_experience:(no experience) || $kanban_experience:(little experience))",
+      "dialog_node": "node_10_1523868427546",
+      "previous_sibling": "node_8_1523865971358"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You can start with the <a href=\"https://blog.t.3cs.ch/training-and-seminars/\" target=_blank rel=\"noopener\"><em>Kanban Simulation</em></a> seminar and follow that up with the <em>Kanban Foundation for Knowledge Work</em>."
+          ]
+        }
+      },
+      "parent": "node_19_1523618505886",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_12_1526035966461",
+      "previous_sibling": "node_28_1523619042396"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_19_1523618505886",
+      "metadata": {},
+      "variable": "$kanban_experience",
+      "dialog_node": "slot_25_1523618719810",
+      "previous_sibling": "slot_22_1523618568544"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "node_19_1523618505886",
+      "next_step": {
+        "behavior": "skip_slot"
+      },
+      "conditions": "@Roles",
+      "event_name": "generic",
+      "dialog_node": "handler_1_1526031014960"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "In which course are you interested?<br />Kanban Foundation for Knowledge Work<br />Kanban Simulation Workshop<br />Kanban for Deciders<br />Kanban for Service Management<br />ITIL Foundation"
+      },
+      "parent": "slot_5_1525017362928",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1525017362928",
+      "previous_sibling": "handler_6_1525017362928"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_5_1525017362928",
+      "context": {
+        "course_name": "@course_name"
+      },
+      "conditions": "@course_name",
+      "event_name": "input",
+      "dialog_node": "handler_6_1525017362928"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_22_1523618568544",
+      "context": {
+        "Role": "@Roles"
+      },
+      "metadata": {},
+      "conditions": "@Roles",
+      "event_name": "input",
+      "dialog_node": "handler_23_1523618568544",
+      "previous_sibling": "handler_24_1523618568544"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "slot_22_1523618568544",
+      "conditions": "$Role",
+      "event_name": "filled",
+      "dialog_node": "handler_9_1526035338203",
+      "previous_sibling": "handler_23_1523618568544"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_22_1523618568544",
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_slot"
+      },
+      "conditions": "anything_else",
+      "event_name": "nomatch",
+      "dialog_node": "handler_6_1526026840452",
+      "previous_sibling": "handler_9_1526035338203"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "First, let me ask you what your principle role is in your organization"
+      },
+      "parent": "slot_22_1523618568544",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_24_1523618568544"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "We have four kanban courses:<ul><li style=\"list-style-type: none\"></li><li style=\"list-style-type: disc\">Kanban Foundation for Knowledge Work</li><li style=\"list-style-type: disc\">Kanban for Deciders</li><li style=\"list-style-type: disc\">Kanban simulation</li><li style=\"list-style-type: disc\">Kanban for Service Managers.</li></ul>Enter a course name to get more details."
+      },
+      "parent": "slot_2_1523460068692",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_4_1523460068692",
+      "previous_sibling": "handler_3_1523460068692"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1523460068692",
+      "context": {
+        "course_name": "@course_name"
+      },
+      "metadata": {},
+      "conditions": "@course_name",
+      "event_name": "input",
+      "dialog_node": "handler_3_1523460068692"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Would you prefer an ethnic joke, an Irish joke or a mafia joke?"
+      },
+      "parent": "slot_12_1524481613444",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_14_1524481613444",
+      "previous_sibling": "handler_13_1524481613444"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_12_1524481613444",
+      "context": {
+        "joke_type": "@joke_type"
+      },
+      "conditions": "@joke_type",
+      "event_name": "input",
+      "dialog_node": "handler_13_1524481613444"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "We offer training, coaching and consulting services. In which type of service are you interested?"
+      },
+      "parent": "slot_3_1524290644852",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_5_1524290644852",
+      "previous_sibling": "handler_4_1524290644852"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1524290644852",
+      "context": {
+        "type_of_service": "@type_of_service"
+      },
+      "conditions": "@type_of_service",
+      "event_name": "input",
+      "dialog_node": "handler_4_1524290644852"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "How am I"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1524481420562",
+      "metadata": {},
+      "dialog_node": "node_9_1524481489514"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You may find more information about our <em>Kanban Simulation Workshop</em>  <a href=\"https://blog.t.3cs.ch/training-and-seminars/#kanban-simulation-workshop\" target=_blank rel=\"noopener\">here</a>."
+          ]
+        }
+      },
+      "parent": "node_1_1523951738766",
+      "metadata": {},
+      "conditions": "@course_name:(Kanban Simulation Workshop)",
+      "dialog_node": "node_8_1523952255190",
+      "previous_sibling": "node_7_1523952161828"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You may find more information about our coaching services <a href=\"https://blog.t.3cs.ch/consulting-coaching-services/\" target=_blank rel=\"noopener\">here</a>."
+          ]
+        }
+      },
+      "parent": "node_1_1523951738766",
+      "metadata": {},
+      "conditions": "@type_of_service:coaching",
+      "dialog_node": "node_13_1523952809764",
+      "previous_sibling": "node_12_1523952689204"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You may find more information about our services and training <a href=\"https://blog.t.3cs.ch/consulting-coaching-services/\" target=_blank rel=\"noopener\">here</a>."
+          ]
+        }
+      },
+      "parent": "node_1_1523951738766",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_14_1523952880908",
+      "previous_sibling": "node_13_1523952809764"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You may find more information about our <em>Kanban Foundation for Knowledge Work</em> training <a href=\"https://blog.t.3cs.ch/training-and-seminars/#kanban-foundation-for-knowledge-work\" target=_blank rel=\"noopener\">here</a>."
+          ]
+        }
+      },
+      "parent": "node_1_1523951738766",
+      "metadata": {},
+      "conditions": "@course_name:(Kanban Foundation for Knowledge Work)",
+      "dialog_node": "node_9_1523952352208",
+      "previous_sibling": "node_8_1523952255190"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You may find more information about our <em>Kanban for Deciders</em> seminar <a href=\"https://blog.t.3cs.ch/training-and-seminars/#kanban-for-deciders\" target=_blank rel=\"noopener\">here</a>."
+          ]
+        }
+      },
+      "parent": "node_1_1523951738766",
+      "metadata": {},
+      "conditions": "@course_name:(Kanban for Deciders)",
+      "dialog_node": "node_7_1523952161828",
+      "previous_sibling": "node_6_1523952118626"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1523951738766",
+      "dialog_node": "slot_2_1523951783416",
+      "previous_sibling": "node_14_1523952880908"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You may find more information about our consulting services <a href=\"https://blog.t.3cs.ch/consulting-coaching-services/\" target=_blank rel=\"noopener\">here</a>."
+          ]
+        }
+      },
+      "parent": "node_1_1523951738766",
+      "metadata": {},
+      "conditions": "@type_of_service:consulting",
+      "dialog_node": "node_12_1523952689204",
+      "previous_sibling": "node_11_1523952556374"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You may find more information about our kanban training and seminars <a href=\"https://blog.t.3cs.ch/training-and-seminars/\" target=_blank rel=\"noopener\">here</a>."
+          ]
+        }
+      },
+      "parent": "node_1_1523951738766",
+      "metadata": {},
+      "conditions": "@course_domain:kanban",
+      "dialog_node": "node_11_1523952556374",
+      "previous_sibling": "node_10_1523952429800"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You may find more information about our <em>Kanban for Service Management</em> training <a href=\"https://blog.t.3cs.ch/training-and-seminars/#kanban-for-service-management\" target=_blank rel=\"noopener\">here</a>."
+          ]
+        }
+      },
+      "parent": "node_1_1523951738766",
+      "metadata": {},
+      "conditions": "@course_name:(Kanban for Service Management)",
+      "dialog_node": "node_6_1523952118626",
+      "previous_sibling": "node_5_1523951906460"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You may find more information about our ITIL training <a href=\"https://blog.t.3cs.ch/training-and-seminars/#itil-foundation\" target=_blank rel=\"noopener\">here</a>."
+          ]
+        }
+      },
+      "parent": "node_1_1523951738766",
+      "metadata": {},
+      "conditions": "@course_domain:ITIL",
+      "dialog_node": "node_10_1523952429800",
+      "previous_sibling": "node_9_1523952352208"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You may find more information about our <em>ITIL Foundation</em> training <a href=\"https://blog.t.3cs.ch/training-and-seminars/#itil-foundation\" target=_blank rel=\"noopener\">here</a>."
+          ]
+        }
+      },
+      "parent": "node_1_1523951738766",
+      "metadata": {},
+      "conditions": "@course_name:(ITIL Foundation)",
+      "dialog_node": "node_5_1523951906460"
+    },
+    {
+      "type": "standard",
+      "title": "Is germanophone?",
+      "output": {
+        "text": {
+          "values": [
+            "Ja, natürlich. Ich danke Ihnen für Ihre Anfrage. Ich kann jedoch nur über unsere Dienstleistungen und unsere Schulungen auf Englisch sprechen. Es tut mir leid."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Francophone",
+      "dialog_node": "node_2_1525186332408",
+      "previous_sibling": "node_1_1525185916842"
+    },
+    {
+      "type": "standard",
+      "title": "Course location",
+      "output": {
+        "text": {
+          "values": [
+            "Some services are delivered online, so are available wherever there is an internet connection; others are delivered on-site, wherever you are located."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Course_location",
+      "dialog_node": "node_1_1523874948834",
+      "previous_sibling": "node_7_1524638591598"
+    },
+    {
+      "type": "standard",
+      "title": "Human or bot",
+      "output": {
+        "text": {
+          "values": [
+            "I am Sophos, an automated agent with natural language processing. How am I doing?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#General_Human_or_Bot",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1524481272992",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1522855792778"
+    },
+    {
+      "type": "standard",
+      "title": "Definition of ITIL",
+      "output": {
+        "text": {
+          "values": [
+            "ITIL is a framework of practices for managing IT services. It defines a service life-cycle, a process architecture and provides advice on organizational structure, tools and other aspects of service management."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Definition_ITIL",
+      "dialog_node": "node_1_1525277669118",
+      "previous_sibling": "node_1_1525193401548"
+    },
+    {
+      "type": "frame",
+      "title": "Joke requested",
+      "output": {},
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_Jokes",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1524481582526",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_25_1525020709182",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "Request to connect to a human",
+      "output": {
+        "text": {
+          "values": [
+            "If a human agent is currently available, you will see a \"chat with us\" button at the lower right corner of the screen.<br /><img src=\"https://www.3cs.ch/wp-content/uploads/chat-message-1.png\" alt=\"chat icon\"><br />Otherwise, you may leave a message for us on <a href=\"https://www.3cs.ch/contact-request/\" target=\"_blank rel=\"noopener\"\">this page</a>. We will get back to you as quickly as possible."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#General_Connect_to_Agent",
+      "dialog_node": "node_2_1524480238128",
+      "previous_sibling": "node_4_1522856154578"
+    },
+    {
+      "type": "frame",
+      "title": "Course registration",
+      "output": {},
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#course_registration",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1524058421658",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_14_1525019483156",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Other general negative remarks",
+      "output": {
+        "text": {
+          "values": [
+            "My boss will be happy to get recommendations for improvement.",
+            "I'm sorry you feel that way. Please enter any suggestions for us to consider.",
+            "We hope to improve this service as we gain additional feedback and users."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#General_Negative_Feedback",
+      "dialog_node": "node_24_1525020306664",
+      "previous_sibling": "node_1_1524636490460"
+    },
+    {
+      "type": "standard",
+      "title": "Other general positive remarks",
+      "output": {
+        "text": {
+          "values": [
+            "Glad to be of service.",
+            "Thanks for your feedback. It's my pleasure.",
+            "I'm glad to be able to help you.",
+            "We appreciate your feeling that way.",
+            "The pleasure is all mine."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_25_1525020709182",
+      "previous_sibling": "node_24_1525020306664"
+    },
+    {
+      "type": "standard",
+      "title": "Course types",
+      "output": {},
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#course_by_type && intents[0].confidence > 0.1",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_18_1523874310360",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1524058421658"
+    },
+    {
+      "type": "standard",
+      "title": "Tax payable",
+      "output": {
+        "text": {
+          "values": [
+            "In principle, there are no sales or value added taxes on our training services. For customers within Switzerland, training is excluded from VAT. For all other customers, our services are exported and therefore not subject to tax collection in Switzerland."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#taxable",
+      "dialog_node": "node_7_1524638591598",
+      "previous_sibling": "node_1_1524064955524"
+    },
+    {
+      "type": "frame",
+      "title": "Targeted users",
+      "output": {},
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Targeted_user",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_14_1525019483156",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_3_1525017304714",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "Cost",
+      "output": {
+        "text": {
+          "values": [
+            "For information about the prices of our courses and seminars, please view <a href=\"https://www.3cs.ch/training-and-seminars/\" target=\"_blank\" rel=”noopener”>this page</a>.",
+            "You may find information about the prices of our courses and seminars on <a href=\"https://www.3cs.ch/training-and-seminars/\" target=\"_blank\" rel=”noopener”>this page</a>."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Cost",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1524064955524",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_18_1523874310360"
+    },
+    {
+      "type": "standard",
+      "title": "Goodbyes",
+      "output": {
+        "text": {
+          "values": [
+            "Thanks for your visit. Bye",
+            "Good bye",
+            "So long. Glad to be of help."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#goodbyes || #General_Ending",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1522856154578",
+      "previous_sibling": "node_1_1526628417689"
+    },
+    {
+      "type": "standard",
+      "title": "Intent confidence check",
+      "output": {
+        "text": {
+          "values": [
+            "Intent0: <? intents[0].confidence ?>; Intent1: <? intents[1].confidence ?>; Intent2: <? intents[2].confidence ?>; Intent3: <?  intents[3].confidence ?>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1522855625972"
+      },
+      "conditions": "true",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_15_1523956907440",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "(#greetings || #General_Greetings) && intents[0].confidence > 0.5",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1522855625972",
+      "digress_out": "allow_all",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "frame",
+      "title": "Identify ITIL course",
+      "output": {},
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#catalogue_of_ITIL_courses",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_14_1523617673314",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_5_1522860612074",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "frame",
+      "title": "Identify service",
+      "output": {},
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#types_of_services",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1524290592664",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_14_1523617673314",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Visitor doesn't know what to ask",
+      "output": {
+        "text": {
+          "values": [
+            "I cannot help you unless you tell me what you what to know",
+            "You could ask me something about our training and services",
+            "Perhaps you could look around our web site. If you have any questions, come back here."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Doesnt_know_what_to_ask",
+      "dialog_node": "node_1_1526628417689",
+      "previous_sibling": "node_2_1525186332408"
+    },
+    {
+      "type": "frame",
+      "title": "Course prerequisites",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#prerequisites",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1525017304714",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1525015963426",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "Security concern",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_Security_Assurance",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_17_1524482470180",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1524480238128"
+    },
+    {
+      "type": "standard",
+      "title": "Definition of kanban",
+      "output": {
+        "text": {
+          "values": [
+            "Kanban is a method for managing the flow of work. It uses physical or virtual cards (kanban cards) to visualize and control the flow of work. Our course <em>Kanban Foundation for Knowledge Work</em> gives a complete overview of the principles and methods used by kanban to optimize the flow of work."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Definition_kanban",
+      "dialog_node": "node_1_1525193401548",
+      "previous_sibling": "node_1_1522855625972"
+    },
+    {
+      "type": "standard",
+      "title": "General bot capabilities",
+      "output": {
+        "text": {
+          "values": [
+            "Basically, I am here to help you find which of our services and training would be the most useful for you."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#General_Agent_Capabilities",
+      "dialog_node": "node_1_1524480042556",
+      "previous_sibling": "node_10_1524481582526"
+    },
+    {
+      "type": "standard",
+      "title": "Clear context variables",
+      "output": {
+        "text": {
+          "values": [
+            "$course_name = NULL"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "$course_name",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1522856140760",
+      "previous_sibling": "node_1_1524480042556"
+    },
+    {
+      "type": "standard",
+      "title": "Course duration",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Duration",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1525015963426",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_3_1524294294566"
+    },
+    {
+      "type": "frame",
+      "title": "Identify course",
+      "output": {},
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#catalogue_of_courses",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1523612581934",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1524290592664",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Get more details",
+      "output": {},
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#get_more_details",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1523951738766",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1523610477898"
+    },
+    {
+      "type": "standard",
+      "title": "Rude remarks",
+      "output": {
+        "text": {
+          "values": [
+            "<? intents[0].confidence ?> <img src=\"https://www.3cs.ch/wp-content/uploads/Emoji_Surprised_Face.png\" alt=\"surprised face\">",
+            "<? intents[0].confidence ?> <img src=\"https://www.3cs.ch/wp-content/uploads/Emoji_Frowning_Face_with_Open_Mouth.png\" alt=\"frowning face\">",
+            "<? intents[0].confidence ?> <img src=\"https://www.3cs.ch/wp-content/uploads/Emoji_Dizzy_Face.png\" alt=\"dizzy face\">"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#rude_remarks && intents[0].confidence > 0.8",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1524636490460",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_17_1524482470180"
+    },
+    {
+      "type": "standard",
+      "title": "Info about coaching service",
+      "output": {
+        "text": {
+          "values": [
+            "Our coaching is a lightweight, pragmatic way of helping your teams to develop their capabilities. We coach in such areas as kanban, continual improvement, lean, service management and related areas. For more information, please visit <a href=\"https://www.3cs.ch/consulting-coaching-services/\" target=\"_blank\"  rel=”noopener”>this page</a>."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#information_about_coaching",
+      "digress_in": "not_available",
+      "dialog_node": "node_2_1524293914014",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1525277669118"
+    },
+    {
+      "type": "standard",
+      "title": "Is francophone?",
+      "output": {
+        "text": {
+          "values": [
+            "Mais oui, évidemment. Je vous remercie de votre demande. Cependant, je ne peux entretenir concernant nos services et nos formations qu'en anglais. Je suis désolé (;-"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Francophone",
+      "dialog_node": "node_1_1525185916842",
+      "previous_sibling": "node_3_1524481272992"
+    },
+    {
+      "type": "frame",
+      "title": "Course suggestion",
+      "output": {},
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#course_suggestion",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_19_1523618505886",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_7_1523612581934",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "frame",
+      "title": "Types of services",
+      "output": {},
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#types_of_services",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1523610477898",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_19_1523618505886",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "frame",
+      "title": "Identify kanban course",
+      "output": {},
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#catalogue_of_kanban_courses",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1522860612074",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1523874948834",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "text": {
+          "values": [
+            "Would it be possible to rephrase your remark? Thanks.",
+            "Please reword your statement, so I can better understand.",
+            "Please clarify what you mean."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_3_1522856140760"
+    },
+    {
+      "type": "standard",
+      "title": "Thank you",
+      "output": {
+        "text": {
+          "values": [
+            "<? intents[0].confidence ?>You're welcome. May I help you with something else?",
+            "<? intents[0].confidence ?>My pleasure. May I help you with something else?",
+            "<? intents[0].confidence ?>No problem. May I help you with something else?",
+            "<? intents[0].confidence ?>Glad to be of help. Is there anything else on your mind today?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#thank_you && intents[0].confidence > 0.4",
+      "dialog_node": "node_2_1522855792778",
+      "previous_sibling": "node_1_1523951738766"
+    },
+    {
+      "type": "standard",
+      "title": "Info about consulting service",
+      "output": {
+        "text": {
+          "values": [
+            "We offer consulting in five areas: <ul><li style=\"list-style-type: disc\">Developing a lean-kanban strategy for managing work</li><li style=\"list-style-type: disc\">Selecting and integrating tools</li><li style=\"list-style-type: disc\">Developing a continual improvement strategy</li><li style=\"list-style-type: disc\">Optimizing processes</li><li style=\"list-style-type: disc\">Performing maturity assessments.</ul><br /> For more information, please visit <a href=\"https://www.3cs.ch/consulting-coaching-services/\" target=\"_blank\" rel=”noopener”>this page</a>."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#information_about_consulting",
+      "digress_in": "not_available",
+      "dialog_node": "node_3_1524294294566",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1524293914014"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "text": {
+          "values": [
+            "Hello. My name is Sophos. I can help you with information about our training, coaching and consulting services."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "digress_in": "not_available",
+      "dialog_node": "Welcome",
+      "digress_out": "allow_all"
+    }
+  ],
+  "workspace_id": "62d26472-9304-4bdb-bf25-f1752ea0e34e",
+  "counterexamples": [
+    {
+      "text": "again"
+    },
+    {
+      "text": "alright you moron"
+    },
+    {
+      "text": "are you back again?"
+    },
+    {
+      "text": "cup"
+    },
+    {
+      "text": "engineer"
+    },
+    {
+      "text": "good for you"
+    },
+    {
+      "text": "head"
+    },
+    {
+      "text": "i hate you"
+    },
+    {
+      "text": "no experience"
+    },
+    {
+      "text": "none"
+    },
+    {
+      "text": "service mgmt"
+    },
+    {
+      "text": "some nonsense"
+    },
+    {
+      "text": "supervisor"
+    },
+    {
+      "text": "this is"
+    },
+    {
+      "text": "this is a test"
+    },
+    {
+      "text": "this is nonsense"
+    },
+    {
+      "text": "what rubbish"
+    },
+    {
+      "text": "you are"
+    },
+    {
+      "text": "your answer is off"
+    },
+    {
+      "text": "you're a"
+    },
+    {
+      "text": "you the"
+    }
+  ],
+  "learning_opt_out": false,
+  "status": "Available"
+}
